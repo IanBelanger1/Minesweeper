@@ -86,11 +86,11 @@ function tileClicked() {
         if (bomb[temp + 1] == 1) {
             b++;
         }
-        if (bomb[temp + 10] == 1) {
+        if (bomb[temp + 12] == 1) {
             b++;
         }
     }
-    if (bomb[temp + 12] == 1) {
+    if (bomb[temp + 10] == 1) {
         b++;
     }
     if (bomb[temp + 11] == 1) {
@@ -131,18 +131,10 @@ function newBombs() {
     }
     bomb[1] = 0;
     bomb[12] = 0;
-    bomb[23] = 0;
-    bomb[34] = 0;
-    bomb[45] = 0;
-    bomb[56] = 0;
     bomb[67] = 0;
     bomb[78] = 0;
     bomb[11] = 0;
     bomb[22] = 0;
-    bomb[33] = 0;
-    bomb[44] = 0;
-    bomb[55] = 0;
-    bomb[66] = 0;
     bomb[77] = 0;
     bomb[88] = 0;
 }
