@@ -122,8 +122,8 @@ function tileClicked() {
 
 function newBombs() {
     for (var i = 1; i < 89; i++) {
-        const rand = Math.floor(Math.random()*4);
-        if (rand <= 2) {
+        const rand = Math.floor(Math.random()*3);
+        if (rand <= 1) {
             bomb[i] = 0;
         } else {
             bomb[i] = 1;
